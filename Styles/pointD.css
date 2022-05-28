@@ -1,0 +1,62 @@
+
+@media screen and (min-width: 1024px) {
+    #main {
+        transform: scale(50%);
+        transition: transform 1s;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #main {
+        transform: scale(50%);
+        transition: transform 1s;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #main {
+        transform: scale(45%);
+        transition: transform 1s;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main {
+        transform: scale(30%);
+        transition: transform 1s;
+    }
+}
+
+.bigYellow-Triangle {
+    transform: translateX(2rem) translateY(3rem) rotate(360deg);
+    transition: transform 1s;
+}
+
+.bigGreen-Triangle {
+    transform: translateX(2rem) translateY(-7rem) rotate(450deg);
+    transition: transform 1s;
+}
+
+.blue-Triangle {
+    transform: translateX(4.5rem) translateY(13rem) rotate(360deg);
+    transition: transform 1s;
+}
+
+.red-Square {
+    transform: translateX(2rem) translateY(23rem) rotate(45deg);
+    transition: transform 1s;
+}
+
+.blue-Parallelogram {
+    transform: translateX(-0.51rem) translateY(9.3rem) rotate(270deg);
+    transition: transform 1s;
+}
+
+.orange-Triangle {
+    transform: translateX(2rem) translateY(-19.5rem) rotate(180deg);
+    transition: transform 1s;
+}
+
+.greenSmallTriangle {
+    transform: translateX(2rem) translateY(-12rem) rotate(450deg);
+    transition: transform 1s;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Link Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300;900&display=swap" rel="stylesheet">
+        <!-- Style Sheets Integration -->
+        <link href="Styles/style.css" rel="stylesheet" type="text/css">
+        <link id="style" href="Styles/square.css" rel="stylesheet" type="text/css">
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Add Favicon -->
+        <link rel="shortcut icon" type="image/jpg" href="favicon/favicon.ico" />
+        <!-- Title -->
+        <title>Tangram</title>
+    </head>
+
+    <body>
+        <!-- Start of body -->
+        <div id="block-page">
+            <header>
+                <nav id="myTopnav" class="topnav">
+                    <h2 id="logo" onclick="swap('Styles/square.css')">
+                        <span class="thick">
+                            Tan
+                        </span>
+                        GRAM
+                    </h2>
+                    <div class="nav-bar">
+                        <input type="checkbox" id="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </input>
+                        <div class="res-menu">
+                            <button id="basic" class="menuLink" onclick="swap('Styles/basic.css')" >
+                                basic
+                            </button>
+                            <button id="square" class="menuLink" onclick="swap('Styles/square.css')">
+                                Square
+                            </button>
+                            <button id="bougie" class="menuLink" onclick="swap('Styles/bougie.css')">
+                                Bougie
+                            </button>
+                            <button id="voilier" class="menuLink" onclick="swap('Styles/voilier.css')">
+                                Voilier
+                            </button>
+                            <button id="cheval" class="menuLink" onclick="swap('Styles/cheval.css')">
+                                Cheval
+                            </button>
+                            <button id="poule" class="menuLink" onclick="swap('Styles/poule.css')">
+                                Poule
+                            </button>
+                            <button id="marteau" class="menuLink" onclick="swap('Styles/marteau.css')">
+                                Marteau
+                            </button>
+                            <button id="pyramide" class="menuLink" onclick="swap('Styles/pyramide.css')">
+                                Pyramide
+                            </button>
+                            <button id="tshirt" class="menuLink" onclick="swap('Styles/tshirt.css')">
+                                T-Shirt
+                            </button>
+                            <button id="tshirt" class="menuLink" onclick="swap('Styles/pointD.css')">
+                                PointD
+                            </button>
+                        </div> 
+                    </div>
+                    <!-- Dark Mode Button -->
+                    <button id="semi-circle" onclick="darkMode()" class="dark-mode">
+                    </button>
+                </nav>
+            </header>
+            <div id="main">
+                    <div id="greenSmallTriangle" class="figure greenSmallTriangle">
+    
+                    </div>
+                    <div id="blue-Triangle" class="figure blue-Triangle">
+    
+                    </div>
+                    <div id="red-Square" class="figure red-Square">
+                            
+                    </div>
+                    <div id="orange-Triangle" class="figure orange-Triangle">
+                            
+                    </div>
+                    <div id="blue-Parallelogram" class="figure blue-Parallelogram">
+    
+                    </div>
+                    <div id="bigGreen-Triangle" class="figure bigGreen-Triangle">
+    
+                    </div>
+                    <div id="bigYellow-Triangle" class="figure bigYellow-Triangle">
+    
+                    </div> 
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
